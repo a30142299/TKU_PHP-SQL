@@ -1,0 +1,11 @@
+CREATE TABLE `club` (
+  `id` int NOT NULL,
+  `name` varchar(100),
+  `Society fees` int,
+  `Official website` varchar(100),
+  `Activities` varchar(100),
+  PRIMARY KEY (`id`)
+);
+INSERT INTO `club` VALUES (1, '躲貓貓社', 1300, 'www.tku.edu.tw', '躲貓貓');
+INSERT INTO `club` VALUES (2, '派對社', 9000, 'www.tku.edu.tw', '調酒大放題');
+INSERT INTO `club` VALUES (3, '搏擊社', 3000, 'www.tku.edu.tw', '淡江搏擊錦標賽');
