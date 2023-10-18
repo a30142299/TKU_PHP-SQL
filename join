@@ -1,0 +1,9 @@
+CREATE TABLE `join` (
+    `id` INT NOT NULL,
+    `no` INT NOT NULL,
+    `join_date` DATE,
+    `leave_date` DATE,
+    PRIMARY KEY (`id`, `no`),
+    FOREIGN KEY (`id`) REFERENCES `club` (`id`),
+    FOREIGN KEY (`no`) REFERENCES `student` (`no`)
+);
