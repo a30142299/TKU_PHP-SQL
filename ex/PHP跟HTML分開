@@ -1,0 +1,15 @@
+<html>
+<meta http-equiv="content-Type" content="text/html" charset="utf-8"> 	<!--環境設定-->
+<head>
+<title>test.php</title>		<!--網站標題-->
+</head>
+<body>
+<h1>Test4</h1> <!-- 大標題H1 -->
+	<form action="test4.php" method="post">
+		<input type="text" name="x">
+		<input type="submit" value="OK">
+	</form>
+
+
+</body>
+</html>
