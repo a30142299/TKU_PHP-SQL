@@ -1,0 +1,25 @@
+<html>
+<meta http-equiv="content-Type" content="text/html" charset="utf-8"> 	<!--環境設定-->
+<head>
+<title>test.php</title>		<!--網站標題-->
+</head>
+<body>
+<h1>Test1</h1> <!-- 大標題H1 -->
+
+<?php
+	echo "Hello<br/>";
+	$student_name="Lin";
+	$score = 100 ;
+	$_credit=3 ;
+	
+	echo $student_name . "：成績" . $score . "；學分" .$_credit . "<br/>";
+	echo "$student_name:成績 $score ； 學分 $_credit<br/>";
+	echo $student_name,$score,$_credit,"<br/>";
+	define("PI",3.1415926);
+	echo PI."<br/>";
+
+?>
+
+姓名：<?=$student_name?> ; 成績： <?=$score?> ; 學分：<?=$_credit?>
+</body>
+</html>
