@@ -1,2 +1,2 @@
-Create database `tku_club` character set utf8 collate utf8_general_ci;Use bookdb;
+Create database `tku_club` character set utf8 collate utf8_general_ci;
 Use `tku_club`;
