@@ -9,3 +9,5 @@ CREATE TABLE `club` (
 INSERT INTO `club` VALUES (1, '躲貓貓社', 1300, 'www.tku.edu.tw', '躲貓貓');
 INSERT INTO `club` VALUES (2, '派對社', 9000, 'www.tku.edu.tw', '調酒大放題');
 INSERT INTO `club` VALUES (3, '搏擊社', 3000, 'www.tku.edu.tw', '淡江搏擊錦標賽');
+INSERT INTO `club` VALUES (4, '嘻哈社', 1200, 'www.tku.edu.tw', '淡江舊說唱');
+INSERT INTO `club` VALUES (5, '派對社', 10000, 'www.tku.edu.tw', 'PARTYPAPA');
