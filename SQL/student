@@ -9,3 +9,5 @@ CREATE table `student`(
 INSERT into `student` VALUES (1 , '黃曉明' , 400000001 , '水還一','男');
 INSERT into `student` values (2 , '黃曉春' , 400000002, '資圖二' , '女');
 INSERT into `student` VALUES (3, '張曉明' , 400000003, '化材一', '男',);
+INSERT into `student` VALUES (4, '張曉春' , 400000004, '中文四', '女',);
+INSERT into `student` VALUES (5, '王曉明' , 400000005, '德語三', '男',);
